@@ -43,7 +43,56 @@ Se incorporan validaciones para controlar los datos recibidos, utilizando herram
 trim()
 htmlspecialchars()
 filter_var()
+<img width="744" height="139" alt="image" src="https://github.com/user-attachments/assets/2a7611f3-5ff2-4ade-a363-35c4c4137b6d" />
+<img width="493" height="315" alt="image" src="https://github.com/user-attachments/assets/65bddded-2ea4-4c0e-9b88-d5254cf294db" />
+
 Configuración
 El proyecto incluye un archivo .env.example como ejemplo de configuración de variables de entorno.
 
 No se deben publicar contraseñas ni datos privados en GitHub.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# ARCADIA – Clase 5
+
+## Procesamiento de formularios con PHP (POST y GET)
+
+En esta clase se incorporaron dos formularios para capturar y procesar datos mediante PHP.
+
+### Formularios implementados
+
+- **POST:** utilizado para enviar sugerencias y opiniones.
+- **GET:** utilizado para realizar búsquedas dentro del sitio.
+
+### Seguridad y validación
+
+Se utilizaron funciones como `htmlspecialchars()`, `trim()` y `filter_var()` para sanitizar y validar los datos, evitando posibles ataques XSS.
+
+También se comprobaron los campos obligatorios y el formato del correo electrónico.
+
+### Capturas de pantalla
+
+1. Página principal de ARCADIA.
+<img width="1904" height="993" alt="image" src="https://github.com/user-attachments/assets/8e1ece64-f5bb-4a03-96c5-40ab4cfd9c17" />
+
+2. Formulario POST.
+<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/df795e59-1fcc-4a77-9862-0366f183f0cf" />
+
+3. Mensaje de envío exitoso.
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/29e02c15-e480-41f6-95b6-7b4cb32a4e0c" />
+
+4. Mensajes de validación de errores.
+<img width="1919" height="983" alt="image" src="https://github.com/user-attachments/assets/14cf6f7d-c140-4822-b4fc-9cae4ba98efa" />
+
+5. Formulario GET.
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/0e48b1ec-e3a6-4d20-b731-6d8e9455ea85" />
+
+6. Resultado de búsqueda mediante GET.
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/502a998a-c675-4e11-8b06-7b2412755ce1" />
+
+
+### Entrega
+
+- Carpeta: `clase5`
+- Rama: `main`
+- Año: 2026
